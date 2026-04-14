@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    color: #111;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;   
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #d9e1d0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    font-family:"Josefin Sans", sans-serif;
+}
+
+#heading{
+    font-size: 45px;
+    font-family:"Josefin Sans", sans-serif;
+    font-weight: 800;
+    transform: translateX(130%);
+}
+#logo{
+    color: #008000;
+    font-size: 45px;
+    transform: translateX(-600%);
+}
+nav p{
+    font-family: "Josefin Sans" , sans-serif;
+    transform: translateX(-180%);
+    font-size: 15px;
+}
+main{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    height:90%;
+    width:50%;
+    background-color: #fff;
+    padding: 100px;
+}
+.section1 h1{
+    margin: 30px 0px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 50px;
+    word-spacing: 10px;
+    font-weight: 400;
+}
+.section1 h3{
+    font-size: 30px;
+    font-family: "Asul", serif;
+    margin: 30px 0px;
+}
+.section1 p{
+    font-family: "Josefin Sans" , sans-serif;
+    font-size: 18px;
+    height: 150px;
+    width: 530px;
+    margin: 70px 0px;
+}
+.section2{
+    width: 50%;
+    height: 100%;
+}
+#img{
+    background-image: url("https://exclusivedecordf.com.br/assets/img/hero-img.svg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#btn1{
+    height: 60px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: #fbcd03;
+    color: #fff;
+    border: none;
+    font-size: 23px;
+    font-weight: 800;
+    font-family: "Josefin Sans" , sans-serif;
+    margin: 0px 15px;
+    transform: translateY(-80%);
+}
+#btn2{
+    height: 60px;
+    width: 270px;
+    border-radius: 15px;
+    border:3px solid #fbcd03;
+    background-color: #fff;
+    color: #111;
+    font-size: 23px;
+    font-weight: 800;
+    font-family: "Josefin Sans" , sans-serif;
+    margin: 0px 15px;
+     transform: translateY(-80%);
+}
+.cboxes{
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    width: 100vw;
+    background-color: #fff;
+    transform: translateX(-5%); 
+    align-items: center;
+    justify-content: center;
+}
+#cbox1{
+    width:30px;
+    height: 30px;
+    background-color: #895603;
+}
+#cbox2{
+    width:30px;
+    height: 30px;
+    background-color: #e4b13b;
+}
+#cbox3{
+    width:30px;
+    height: 30px;
+    background-color: #afb2b3;
+}
+#cbox4{
+    width:30px;
+    height: 30px;
+    background-color: #d7eff5;
+}
+.section3{
+    height:100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.pg1{
+    display: flex;
+    height:calc(100vh - 10vh);
+}
+.pg2{
+    width: 100%;
+    min-height:100vh;
+    background-color: #5f6161;
+}
+
+/* second page*/
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 300px;
+}
+.section3 h1{
+    font-family: "Josefin Sans" , sans-serif;
+    font-size: 35px;
+    position: relative;
+    top:100px;
+    color: #fff;
+}
+.section3 p{
+    font-family: "Josefin Sans" , sans-serif;
+    font-size: 15px;
+    height: 60px;
+    width: 600px;
+    position: relative;
+    top: 150px;
+    left: 650px;
+    color: #fff;
+}
+[id^="card"]{
+    background-color: #fafbfc;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid #111;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+[id^="card"]:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px #0000004d;
+}
+
+[id^="card"] #part1{
+    height: 60%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#card1 #part1{
+    background-image: url("https://fancyhouse-design.com/wp-content/uploads/2025/02/A-Sophisticated-Bedroom-with-Balanced-Contrast-and-Textural-Depth.jpg");
+    background-size: cover;
+}
+#card2 #part1{
+    background-image: url("https://ndakitchens.com/wp-content/uploads/2025/01/21A-Seusing-Blvd-Ronkonkoma-NY-Josh-Goetz-Photography-1.jpg");
+    background-size: cover;
+}
+#card3 #part1{
+    background-image: url("https://www.andacademy.com/resources/wp-content/uploads/2024/06/image2-1.jpg");    
+    background-size: cover;
+    background-position: left;
+}
+#card4 #part1{
+    background-image: url("https://cdn.discount.com.au/wp-content/uploads/2025/03/06060531/how-to-design-a-bathroom-modern-large-bathroom.jpg");
+    background-size: cover;
+}
+[id^="card"] #part2 p{
+    position: static;
+    width: 100%;
+    height: 100px;
+    color: #111;
+}
+[id^="card"] #part2 h3{
+    font-family: "Merriweather Sans", sans-serif;
+    margin: 20px 0px;
+    color: #111;
+}
+
+/* page 3*/
+.pg3{
+    height: 100vh;
+    width:100%;
+    background-color: #5f6161;
+    flex-direction: column;
+}
+.section4{
+    width: 100%;
+    height: 100%;
+}
+.section4 h1{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 35px;
+    color: #fff;
+    transform: translate(800px, -100px);
+}
+.list-services{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+    height: 80%;
+    margin-top: 100px;
+}
+
+[class^="ls"]{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: 350px;
+    width: 100vw;
+    margin-left: 70px;
+}
+.ls1{
+    margin-top: -50px;
+}
+#ls1logo{
+    background-image: url("https://t4.ftcdn.net/jpg/03/05/47/61/360_F_305476114_rMj4TOLvaXvjYQAqbym4YT5njmqFMGY4.jpg");
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    margin: 0px 20px;
+    border-radius: 30px;
+}
+#ls2logo{
+    background-image: url("https://cdn.shopify.com/s/files/1/0848/2137/7331/files/pixelcut-export.jpg?v=1717959018");
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    margin: 0px 20px;
+    border-radius: 30px;
+}
+[class^="lstext"]{
+    max-width: 600px;
+    margin-left: -80px;
+}
+.lstext2{
+    margin-left: -120px;
+}
+[class^="ls"] p{
+    max-width: 500px;
+    font-size: 20px;
+    font-family: "Josefin Sans" , sans-serif;
+    margin-top: 90px;
+    color: #111;
+}
+[class^="ls"] h2{
+    position: relative;
+    left: 100px;
+    color: #fff;
+}
+.ls2 h2{
+    position: relative;
+    left: 140px;
+} 
+[class^="ls"] h2{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 30px;
+    display: inline;
+}
+[class$="btns"]{
+    margin: 0px;
+    width: 60px;
+    height: 50px;
+}s
+[id^="ls1btn-"]{
+    height: 50px;
+    width: 60px;
+    margin: 0px;
+}
+#ls1btn-1{
+    color: #111;
+    width: 200px;
+    height: 80px;
+    flex-shrink: 0;
+    transform: translate(1200px , 250px);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Josefin Sans" , sans-serif;
+    border: 2px solid #d0a84c;
+    border-radius: 20px;
+}
+#ls1btn-2{
+    color: #111;
+    background-color: #d0a84c;
+    width: 200px;
+    height: 80px;
+    flex-shrink: 0;
+    transform: translate(1250px , 250px);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Josefin Sans" , sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+#ls2btn-1{
+    color: #111;
+    width: 200px;
+    height: 80px;                                 
+    flex-shrink: 0;
+    transform: translate(1080px , 700px);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Josefin Sans" , sans-serif;
+    border: 2px solid #d0a84c;
+    border-radius: 20px;
+}
+#ls2btn-2{
+    color: #111;
+    background-color: #d0a84c;
+    width: 200px;
+    height: 80px;
+    flex-shrink: 0;
+    transform: translate(1120px , 700px);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Josefin Sans" , sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+/* hidden part */
+.extra-text{
+    display: none;
+}
+
+/* button style */
+.more-btn{
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+/* when active */
+.more-btn.active{
+    height: auto;
+    padding: 20px;
+}
+
+/* show text */
+.more-btn.active .extra-text{
+    display: block;
+    margin-top: 10px;
+}
+.arrow{
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.more-btn.active .arrow{
+    transform: rotate(180deg);
+}
+/* HIRE BUTTON */
+#ls1btn-2, #ls2btn-2{
+    cursor: pointer;
+    transition: all 0.4s ease;   /* 🔥 animation */
+}
+
+/* ACTIVE STATE */
+#ls1btn-2.hire-active,
+#ls2btn-2.hire-active{
+    background-color: white;
+    border: 4px solid #d0a84c;
+}
+
+#last-more{
+    width: 100vw;
+    height: 300px;
+    background-color: #5f6161;
+    margin-top: -40px;
+    border: none;
+}
+#meow-icon{
+    height: 100px;
+    color: #fff;
+    font-size: 45px;
+    margin-top: -20px;
+}
+
+/* footer*/
+
+.footer{
+  margin-top: 40px;   
+  background-color: #170808;
+  color: #fff;
+  padding: 40px 20px 10px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-size: 13px;
+}

@@ -1,0 +1,130 @@
+@media (max-width: 1024px) {
+
+  /* RESET */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #heading,
+  #logo,
+  nav p {
+    transform: none;
+    text-align: center;
+  }
+
+  /* PAGE 1 */
+  .pg1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .section1,
+  .section2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .section1 h1 {
+    font-size: 28px;
+    margin: 15px 0;
+  }
+
+  .section1 h3 {
+    font-size: 20px;
+  }
+
+  .section1 p {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  /* BUTTONS */
+  #btn1,
+  #btn2 {
+    width: 100%;
+    margin: 10px 0;
+    transform: none;
+  }
+
+  /* IMAGE */
+  #img {
+    height: 250px;
+  }
+
+  /* COLOR BOXES */
+  .cboxes {
+    width: 100%;
+    transform: none;
+    gap: 10px;
+  }
+
+  /* PAGE 2 */
+  .section3 {
+    height: auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .section3 h1 {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .section3 p {
+    position: static;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* CARDS */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  [id^="card"] {
+    width: 90%;
+    height: auto;
+  }
+
+  /* 🔥 IMAGE FIX (BOTTOM ALIGN) */
+  [id^="card"] #part1 {
+    height: 180px;
+    background-position:center!important;
+    background-size: cover !important;
+  }
+
+  /* 🚨 REMOVE PAGE 3 */
+  .pg3 {
+    display: none !important;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
